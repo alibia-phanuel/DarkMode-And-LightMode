@@ -1,0 +1,43 @@
+.NavBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 15px 7%;
+}
+.logo {
+  width: 160px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+}
+ul {
+  flex: 1;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+.iconne-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  cursor: pointer;
+  gap: 4px;
+}
+.icone {
+  cursor: pointer;
+  font-size: 50px;
+}
+.dark .NavBar {
+  background: #000;
+  color: #fff;
+}
